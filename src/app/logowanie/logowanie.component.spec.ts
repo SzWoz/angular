@@ -7,7 +7,7 @@ describe('LogowanieComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [LogowanieComponent],
+      imports: [LogowanieComponent],
     });
 
     fixture = TestBed.createComponent(LogowanieComponent);
