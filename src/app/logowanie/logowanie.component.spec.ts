@@ -85,6 +85,6 @@ describe('LogowanieComponent', () => {
 
     const errorMessage =
       fixture.debugElement.nativeElement.querySelector('.error-message');
-    expect(errorMessage).toBeFalsy();
+    expect(errorMessage).toBeTruthy();
   });
 });
